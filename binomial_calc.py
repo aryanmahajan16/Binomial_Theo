@@ -21,6 +21,8 @@ if config.lower() == "a":
     b4calc = b4calc.strip(" + ")
     print(b4calc)
 elif config.lower() == 'pass':
+    a = float(a)
+    b = float(b)
     soln = (a + b)**n
     print(soln)
 elif config.lower() == "b":
@@ -49,4 +51,5 @@ else:
     print("Invalid Input!")
 
 input("Press any key to exit...")
+
 
